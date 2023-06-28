@@ -4,14 +4,13 @@ body{
 }
 
 .cabeçalho{
-    background-color: #A3A3A3;
+    background-color: #969696;
 display: flex;
 justify-content: space-around;
 }
 
  
     .cabeçalho-img{
-
         width: 15%
     }
 
@@ -21,5 +20,78 @@ justify-content: space-around;
             display: inline-block;
             margin: 0  16px;
             font-size:30px ;
-            font-style: ;
+            font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
         }
+
+        .sobre-mim{
+            background-image: linear-gradient(#969696,#D7D7D7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px  0;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .div-sbmim{
+            width: 50%;
+            font-size: 150%;
+            
+        }
+
+      .div-hobbies{
+        width: 80%; 
+        font-size: 180%;
+        
+      }
+
+      .hobbies{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+    .div-sonhos{
+        justify-content: center;
+        width: 80%;
+        text-align: center;    
+        font-family: 'Roboto Mono', monospace;
+        padding: 50px  0;
+        font-size: 180%;
+    }
+
+
+    .eukaly{
+        width: 300px;
+        float: left;
+    }
+
+
+ .informaçoes{
+    font-size: 200%;
+    font-family: 'Roboto Mono', monospace;
+ }
+
+
+ .icones-informaçao{
+    
+    align-items: center;
+ }
+
+
+ .icones-div{
+    float: left;
+    width: 60px;
+ }
+
+ .icone{
+    text-align: center;
+ }
+
+ .importante{
+    font-size: 53px;
+   float: right;
+   font-family: 'Poppins', sans-serif;
+ }
